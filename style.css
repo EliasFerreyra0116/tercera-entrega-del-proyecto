@@ -1,0 +1,81 @@
+/*-----------MEDIA QUERIES PANTALLA SM----------*/
+@media (max-width:768px) {
+    #intro {
+        width: 90% !important;
+    }
+    .servicio-fila {
+        width: 100% !important ;
+    }
+}
+/*----------------------------------------------*/
+@media (max-width: 576px){
+    .icono-wrap {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
+.navbar-brand span{
+    color: blueviolet;
+}
+/*------------CAROUSEL------------*/
+.carousel-inner {
+    max-height: 49rem;
+}
+/*-----------TIPOGRAFIA-----------*/
+body {
+   
+}
+/*----------SERVICIOS------------*/
+.servicio-fila {
+    text-align: center;
+}
+.icono-wrap img {
+    height: 150px;
+    width: 180px;
+    border-radius: 50%;
+}
+/*----------GALERIA--------------*/
+#galeria img {
+    width: 100%;
+    height: 250px;
+}
+#galeria .col-lg-4 {
+    margin: 0 !important;
+    padding: 10px;
+}
+#galeria img:hover {
+    border: 5px solid #f7f7f7;
+}
+/*----------PRODUCTOS------------*/
+#productos img {
+    width: 90%;
+    max-height: 300px;
+    padding: 10px;
+}
+#productos .col-lg-4 {
+    margin: 0 !important;
+    padding: 40px;
+}
+/*----------CONTACTO-------------*/
+.contacto{
+    margin-top: 1vh;}
+.inf-cont{
+    text-align: center;
+}
+/*----------FOOTER---------------*/
+#span {
+    color: blueviolet;
+}
+footer {
+    background: #1b2a4e;
+    min-height: 100px;
+}
+footer p {
+    color: #f7f7f7;
+    text-align: center;
+}
+#iconos i {
+    font-size: 26px;
+    padding: 0 8px;
+    color: #f7f7f7;
+}
